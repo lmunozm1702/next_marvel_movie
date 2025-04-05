@@ -19,7 +19,7 @@ This project is a simple PHP web application that displays information about the
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/next_marvel_movie.git
+   git clone https://github.com/lmunozm1702/next_marvel_movie.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -39,7 +39,10 @@ This project uses the When Is The Next MCU Film API to fetch movie data. The API
 
 <img alt="Screenshot of the application" src="image.png">
 
-## Author
+## Autor
 
-Luis Muñoz
-GitHub: [lmunozm1702](https://github.com/lmunozm1702)
+### 👤 Luis Muñoz
+
+- GitHub: [@lmunozm1702](https://github.com/lmunozm1702)
+- Twitter: [@lmunozm](https://twitter.com/lmunozm)
+- LinkedIn: [luis-munoz-manriquez](https://www.linkedin.com/in/luis-munoz-manriquez)
