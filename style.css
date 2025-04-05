@@ -1,0 +1,31 @@
+body {
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+
+.center {
+  text-align: center;
+}
+
+.movie-info {
+  font-size: 0.9rem;
+}
+
+.movie-overview {
+  font-size: 0.9rem;
+  margin: 0 10rem;
+}
+
+.movie-following-movie {
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.poster {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 16px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
