@@ -37,7 +37,7 @@ This project uses the When Is The Next MCU Film API to fetch movie data. The API
 
 ## Screenshots
 
-<img alt="Screenshot of the application" src="image.png">
+<img alt="Screenshot of the application" src="assets/images/image.png">
 
 ## Autor
 
