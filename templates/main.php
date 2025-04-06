@@ -1,14 +1,14 @@
 <body>
   <main>
     <section class="center">
-      <?php if (!empty($data)): ?>
-        <h2><mark><?php echo $data['title']; ?></mark> releases in <?php echo $data['days_until']; ?> days!</h2>
+      <?php if ($next_movie): ?>
+        <h2><mark><?= $next_movie->getMovieTitle(); ?></mark> releases in <?= $next_movie->getDaysUntil(); ?> days!</h2>
         <p class="movie-release-date">
-          Release date: <?php echo $data['release_date']; ?>
+          Release date: <?= $next_movie->getReleaseDate(); ?>
         </p>
-        <p class="movie-overview"><?php echo $data['overview']; ?></p>
-        <img src="<?php echo $data['poster_url']; ?>" alt="<?php echo $data['title']; ?>Poster" class="poster" />
-        <p class="movie-following-movie">Folowing movie: <?php echo $data['following_production']['title']; ?> in <?php echo $data['following_production']['days_until']; ?> days.</p>
+        <p class="movie-overview"><?= $next_movie->getOverview(); ?></p>
+        <img src="<?= $next_movie->getPosterUrl(); ?>" alt="<?= $next_movie->getMovieTitle(); ?>Poster" class="poster" />
+        <p class="movie-following-movie">Folowing movie: <?= $next_movie->getFollowingProductionTitle(); ?> in <?= $next_movie->getFollowingProductionDaysUntil(); ?> days.</p>
       <?php else: ?>
         <p>No data found</p>
       <?php endif; ?>

@@ -2,9 +2,8 @@
 
 declare(strict_types=1);
 
-function render_template(string $template, array $data = []): void
+function render_template(string $template, Movie $next_movie): void
 {
-  extract($data);
   require "templates/$template.php";
 }
 
